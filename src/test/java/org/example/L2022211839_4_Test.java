@@ -57,7 +57,7 @@ public class L2022211839_4_Test {
         // 测试目的：验证算法对于所有元素相同的数组的处理。
         // 测试用例：所有元素相同的数组。
         Solution4 solution = new Solution4();
-        int[] nums = new int[]{1, 1, 1, 1};
+        int[] nums = new int[]{1, 2, 1, 1};
         Assert.assertEquals("最大差值应该为0", 0, solution.maximumGap(nums));
     }
 
